@@ -2,6 +2,9 @@
 ## Overview
 * Developed an **object detection** model that identifies the presence, location, and type of one or more U.S. traffic signs in a given photograph using the LISA dataset — currently the largest known dataset of U.S. traffic signs with 47 different types of U.S. traffic signs.
 * This group project involved **exploratory data analysis** (**EDA**), **annotation preprocessing**, **memory reduction**, **parameter tuning**, and training and testing a **convolutional neural network**-based object detection algorithm (**YOLOv3**) for maximum average precisions (AP) for each type of U.S. traffic sign, maximum average intersection of union (IoU), and maximum mean average precision (mAP). **Our final (best) results were a maximum avg. IoU of 68% and a maximum mAP of 65%**. 
+
+![Screen Shot 2020-03-23 at 2 39 32 AM](https://user-images.githubusercontent.com/56474640/77289079-98fcc380-6caf-11ea-9b0f-34adf218b28b.png)
+
 * **Best Predictions**:
   * Stop (97%)
   * Signal Ahead (97%)
