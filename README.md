@@ -17,10 +17,13 @@
 * **Darknet**
 
 ## Authors
-* Nishant Sinha
-* Arjun Mitra
-* Patrick Condie
-* Jose Canela
+![Nishant Sinha](https://avatars1.githubusercontent.com/u/46798485?s=200&u=e15e4723b7b3729b1d8f65fe2da44c519c7df345&v=4) | ![Arjun Mitra](https://avatars1.githubusercontent.com/u/42727780?s=200&v=4) | 
+----------------------------------------------------------- | ----------------------------------------------------------- |
+[Nishant Sinha](https://github.com/sinha-nishant) | [Arjun Mitra](https://github.com/arjunmitra) | [Patrick Condie]
+
+![Patrick Condie](https://avatars2.githubusercontent.com/u/42784051?s=200&v=4) | ![Jose Canela](https://avatars2.githubusercontent.com/u/42784051?s=200&v=4) | 
+----------------------------------------------------------- | ----------------------------------------------------------- |
+[Patrick Condie](https://github.com/pcondie) | [Jose Canela](https://github.com/JoseCanela)
 
 ## Citations
 Andreas Møgelmose, Mohan M. Trivedi, and Thomas B. Moeslund, "Vision based Traffic Sign Detection and Analysis for Intelligent Driver Assistance Systems: Perspectives and Survey," IEEE Transactions on Intelligent Transportation Systems, 2012.
