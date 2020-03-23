@@ -50,8 +50,10 @@
     * **Unable to do so due to the time contraints imposed by our professor**
 
 ## What is YOLOv3?
-*
-* For more details on YOLOv3 theory: https://medium.com/analytics-vidhya/yolo-v3-theory-explained-33100f6d193
+* YOLOv3 is the latest version of the "You Only Look Once" (YOLO) convolutional neural network (CNN) algorithm used for object detection. Overall, the object detection consists of determining the location of the target objects in an image and classifying those objects. YOLO takes in an image as input, passes it through a CNN, and outputs a vector of bounding boxes and class predictions.
+* For an in-depth analysis on YOLOv3 theory (that's relatively digestible), we **HIGHLY recommend** these two links: 
+  * https://medium.com/analytics-vidhya/yolo-v3-theory-explained-33100f6d193
+  * https://hackernoon.com/understanding-yolo-f5a74bbc7967
 
 ## Dependencies
 * **Darknet** is a wrapper around the YOLOv3 Convolutional Neural Network algorithm. More specifically, it is an open source neural network framework written in C and CUDA. It is fast, easy to install, and supports CPU and GPU computation. 
