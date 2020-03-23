@@ -21,7 +21,7 @@
 ----------------------------------------------------------- | ----------------------------------------------------------- |
 [Nishant Sinha](https://github.com/sinha-nishant) | [Arjun Mitra](https://github.com/arjunmitra) | [Patrick Condie]
 
-![Patrick Condie](https://avatars2.githubusercontent.com/u/42784051?s=400&v=4) | ![Jose Canela](https://avatars2.githubusercontent.com/u/42784051?s=400&v=4) | 
+![Patrick Condie](https://avatars2.githubusercontent.com/u/42784051?s=400&v=4) | ![Jose Canela](https://avatars1.githubusercontent.com/u/56474640?s=400&u=f847953fb3b95a50302bc3503c5837d01b9cfafd&v=4) | 
 ----------------------------------------------------------- | ----------------------------------------------------------- |
 [Patrick Condie](https://github.com/pcondie) | [Jose Canela](https://github.com/JoseCanela)
 
