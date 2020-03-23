@@ -13,6 +13,9 @@
   * Images vary between color and grayscale
   * Annotations include sign type, position, size, occluded (yes/no), on side road (yes/no).
 
+## Dependencies
+* **Google Colab**
+* **Darknet**
 
 ## Authors
 * Nishant Sinha
