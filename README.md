@@ -17,8 +17,7 @@
 * For each image, exported an annotation file
   * Each annotation files contained an image and bounding box locations of the signs.
   * In order to train our CNN, we needed to normalized dimensions of bounding box relative to image.
-  
-  
+  ![Screen Shot 2020-03-23 at 2 21 42 AM](https://user-images.githubusercontent.com/56474640/77287934-1a9f2200-6cad-11ea-936d-e945c5caa569.png)
   
 * Update configuration file to train our dataset
 * Processed data from LISA dataset
@@ -28,8 +27,8 @@
 ## Training our YOLOv3 Convolution Neural Network Model 
 * Trained on 75% of the images in LISA dataset.
 * We utilized *Darknet*, a wrapper around the YOLOv3 algorithm.
-* **Google Colab was our savior!**
-  * **Conducted training in *Google Colab*** for hosted GPU connected runtime. 
+* **GOOGLE COLAB WAS OUR SAVIOR!**
+  * We conducted training in Google Colab for *hosted GPU connected runtime*. 
     * **Decreased runtime by a factor of 30 relative to running locally**
     * **Uploaded all images and their annotations to Google Drive**
     * **Saved weights to local machine every 100 iterations**
@@ -43,7 +42,7 @@
 
 ## Dependencies
 * **Darknet** is a wrapper around the YOLOv3 Convolutional Neural Network algorithm. More specifically, it is an open source neural network framework written in C and CUDA. It is fast, easy to install, and supports CPU and GPU computation. 
-  * We used this link for [Darknet implementation instructions](https://github.com/AlexeyAB/darknet/blob/master/README.md#yolo-v3-in-other-frameworks). When we read through the README.md file, we click on bullet point (6) in order to learn how to train our model to detect custom objects.
+  * We used the following link for [Darknet implementation instructions](https://github.com/AlexeyAB/darknet/blob/master/README.md#yolo-v3-in-other-frameworks). When we read through the README.md file, we click on bullet point (6) in order to learn how to train our model to detect custom objects.
     * For addition details: https://pjreddie.com/darknet/yolo/
 
 ## Authors
