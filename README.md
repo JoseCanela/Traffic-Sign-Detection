@@ -39,6 +39,7 @@
 
 ## What is YOLOv3?
 *
+* For more details on YOLOv3 theory: https://medium.com/analytics-vidhya/yolo-v3-theory-explained-33100f6d193
 
 ## Dependencies
 * **Darknet** is a wrapper around the YOLOv3 Convolutional Neural Network algorithm. More specifically, it is an open source neural network framework written in C and CUDA. It is fast, easy to install, and supports CPU and GPU computation. 
