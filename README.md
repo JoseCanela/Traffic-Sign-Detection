@@ -12,9 +12,39 @@
   * Image sizes from 640x480 to 1024x522 pixels
   * Images vary between color and grayscale
   * Annotations include sign type, position, size, occluded (yes/no), on side road (yes/no).
+## Annotation Preprocessing
+* Convert images from png to jpg
+* For each image, exported an annotation file
+  * Each annotation files contained an image and bounding box locations of the signs.
+  * In order to train our CNN, we needed to normalized dimensions of bounding box relative to image.
+  
+  
+  
+* Update configuration file to train our dataset
+* Processed data from LISA dataset
+  * Created files that stored information about location of objects in images
+* Made sure all file paths to images were accurate
+
+## Training our YOLOv3 Convolution Neural Network Model 
+* Trained on 75% of the images in LISA dataset.
+* We utilized *Darknet*, a wrapper around the YOLOv3 algorithm.
+* **Google Colab was our savior!**
+  * **Conducted training in *Google Colab*** for hosted GPU connected runtime. 
+    * **Decreased runtime by a factor of 30 relative to running locally**
+    * **Uploaded all images and their annotations to Google Drive**
+    * **Saved weights to local machine every 100 iterations**
+* Darknet outputs a weights file which holds information about important features
+* We trained our model for 3000 iterations.
+  * Recommended iterations = 2000 * classes 
+    * **Unable to do so due to the time contraints imposed by our professor**
+
+## What is YOLOv3?
+*
 
 ## Dependencies
-* **Darknet**
+* **Darknet** is a wrapper around the YOLOv3 Convolutional Neural Network algorithm. More specifically, it is an open source neural network framework written in C and CUDA. It is fast, easy to install, and supports CPU and GPU computation. 
+  * We used this link for [Darknet implementation instructions](https://github.com/AlexeyAB/darknet/blob/master/README.md#yolo-v3-in-other-frameworks). When we read through the README.md file, we click on bullet point (6) in order to learn how to train our model to detect custom objects.
+    * For addition details: https://pjreddie.com/darknet/yolo/
 
 ## Authors
 ![Nishant Sinha](https://avatars1.githubusercontent.com/u/46798485?s=400&u=e15e4723b7b3729b1d8f65fe2da44c519c7df345&v=4) | ![Arjun Mitra](https://avatars1.githubusercontent.com/u/42727780?s=400&v=4) | 
